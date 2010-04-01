@@ -1,8 +1,29 @@
-#summary One-sentence summary of this page.
+#服务器设置及软件使用
 
-= Introduction =
+= 服务器设置 =
 
-Add your content here.
+  * 编辑manager.conf
+  {{{[general]
+displaysystemname = yes
+enabled = yes
+webenabled = no
+port = 5038
+;httptimeout = 60
+bindaddr = 0.0.0.0
+;displayconnects = yes
+timestampevents = yes
+
+[freeiris]
+secret = freeiris
+deny=0.0.0.0/0.0.0.0
+permit=127.0.0.1/255.255.255.0
+writetimeout = 100
+read = system,call,log,verbose,command,agent,user
+write = system,call,log,verbose,command,agent,user
+[langtoo]
+secret = 20102010
+read  = call
+}}}
 
 
 = Details =
