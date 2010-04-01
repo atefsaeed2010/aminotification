@@ -7,9 +7,9 @@
 
 添加如下3行代码:
 
-[yourname]           ;把 yourname 修改为你的登录名
-secret = password    ;把password改成你的密码
-read  = call
+# `[`yourname`]`           ;把 yourname 修改为你的登录名
+# secret = password    ;把password改成你的密码
+# read  = call
 
 
   * 查看 [general] 中 port和 bindaddr 的值
