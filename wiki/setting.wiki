@@ -6,17 +6,17 @@
   * 编辑manager.conf
 
 添加如下3行代码:
-
-# `[`yourname`]`           ;把 yourname 修改为你的登录名
-# secret = password    ;把password改成你的密码
-# read  = call
+<br>
+`[`yourname`]`           ;把 yourname 修改为你的登录名<br>
+secret = password    ;把password改成你的密码<br>
+read  = call<br>
 
 
   * 查看 [general] 中 port和 bindaddr 的值
-
-port的值默认是5038,如非必要无需更改
-bindaddr默认是0.0.0.0,如非必要无需更改
+<br>
+port的值默认是5038,如非必要无需更改<br>
+bindaddr默认是0.0.0.0,如非必要无需更改<br>
 
 = 软件设置 =
-
-今天好困,明天再写
+<br>
+今天好困,明天再写<br>
