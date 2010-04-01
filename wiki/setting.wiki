@@ -2,28 +2,14 @@
 
 = 服务器设置 =
 
-  * 编辑manager.conf
-  {{{[general]
-displaysystemname = yes
-enabled = yes
-webenabled = no
-port = 5038
-;httptimeout = 60
-bindaddr = 0.0.0.0
-;displayconnects = yes
-timestampevents = yes
+  * 打开manager.conf 添加如下代码
 
-[freeiris]
-secret = freeiris
-deny=0.0.0.0/0.0.0.0
-permit=127.0.0.1/255.255.255.0
-writetimeout = 100
-read = system,call,log,verbose,command,agent,user
-write = system,call,log,verbose,command,agent,user
-[langtoo]
-secret = 20102010
-read  = call
-}}}
+
+
+[*yourname*]||;把 yourname 修改为你的登录名
+secret = *password*||;把password改成你的密码
+read  = call||这里的意思是,这个用户只接受call Event
+
 
 
 = Details =
