@@ -1,20 +1,19 @@
+#labels Featured,Phase-Deploy
 #服务器设置及软件使用
 
 = 服务器设置 =
 
-  * 打开manager.conf 添加如下代码
+  * 编辑manager.conf
 
+# 添加如下代码:
+[yourname]           ;把 yourname 修改为你的登录名
+secret = password    ;把password改成你的密码
+read  = call
 
+# 查看 [general] 中 port和 bindaddr 的值
+port的值默认是5038,如非必要无需更改
+bindaddr默认是0.0.0.0,如非必要无需更改
 
-||[yourname]||;把 yourname 修改为你的登录名||
-||secret = *password*||;把password改成你的密码||
-||read  = call||这里的意思是,这个用户只接受call Event||
+= 软件设置 =
 
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+今天好困,明天再写
