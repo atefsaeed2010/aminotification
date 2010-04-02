@@ -10,7 +10,7 @@ secret = password    ;把password改成你的密码<br>
 read  = call<br>
 
   * 查看 `[`general`]` 中 port和 bindaddr 的值
-<br>
+
 port的值默认是5038,如非必要无需更改<br>
 bindaddr默认是0.0.0.0,如非必要无需更改<br>
 
